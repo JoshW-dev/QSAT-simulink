@@ -28,7 +28,6 @@ Viewpoint {
 DEF STLB_transform Transform {
 	translation	0 0 0
 	rotation	-1 0 0  1.5708
-	center	0.020301 0.720665 0
 	children DEF STLB_Shape Shape {
 		geometry	DEF STLB IndexedFaceSet {
 			coord	DEF STLB_Coordinate Coordinate {

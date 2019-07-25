@@ -1,8 +1,8 @@
-#QSAT ADSC simulink 3D simulation
+# QSAT ADSC simulink 3D simulation
 
 This is a temporary repo for the sat ADCS simulation
 
-#Important papers:
+# Important papers:
 
 ### MIT 3D Rigid Body Kinematics:
 https://ocw.mit.edu/courses/aeronautics-and-astronautics/16-07-dynamics-fall-2009/lecture-notes/MIT16_07F09_Lec25.pdf

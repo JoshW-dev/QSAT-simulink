@@ -5,6 +5,98 @@
 #www.ids-net.com
 
 
+PointLight {
+	intensity	0.5
+	location	5 5 5
+}
+Transform {
+	translation	0.5 0 0
+	rotation	0 0 -1  1.57
+	children Shape {
+		appearance	DEF appearance1 Appearance {
+			material	Material {
+				ambientIntensity	0
+				diffuseColor	0.02 0.5 0.12
+				emissiveColor	0 0.16 0
+				shininess	0.15
+				specularColor	0.76 0.76 0.76
+			}
+
+		}
+
+		geometry	DEF cone Cone {
+			bottomRadius	0.1
+			height	1
+		}
+
+	}
+}
+Transform {
+	translation	1.25 0 0
+	children Shape {
+		appearance	USE appearance1 
+		geometry	Box {
+			size	0.2 0.2 0.2
+		}
+
+	}
+}
+Transform {
+	translation	0 0.5 0
+	children Shape {
+		appearance	DEF appearance2 Appearance {
+			material	Material {
+				ambientIntensity	0.00333
+				diffuseColor	0.52 0.26 0
+				emissiveColor	0.24 0 0
+				shininess	0.12
+				specularColor	0.97 0.98 0.12
+			}
+
+		}
+
+		geometry	USE cone 
+	}
+}
+Transform {
+	translation	0 1.25 0
+	children Shape {
+		appearance	USE appearance2 
+		geometry	Sphere {
+			radius	0.1
+		}
+
+	}
+}
+Transform {
+	translation	0 0 0.5
+	rotation	1 0 0  1.57
+	children Shape {
+		appearance	DEF appearance3 Appearance {
+			material	Material {
+				ambientIntensity	0
+				diffuseColor	0.32 0.04 0.02
+				emissiveColor	0 0 0.14
+				shininess	0.05
+				specularColor	0 0.92 1
+			}
+
+		}
+
+		geometry	USE cone 
+	}
+}
+Transform {
+	translation	0 0 1.25
+	children Shape {
+		appearance	USE appearance3 
+		geometry	Cylinder {
+			height	0.2
+			radius	0.1
+		}
+
+	}
+}
 Transform {
 	translation	0 -4 0
 	scale	10 0.2 10
@@ -14,7 +106,6 @@ Transform {
 				ambientIntensity	0.7
 				diffuseColor	0.8 0.616594 0.521012
 				shininess	0
-				transparency	0
 			}
 
 		}
@@ -40,18 +131,20 @@ Viewpoint {
 	orientation	-1 0 0  0.349066
 	position	0 5 10
 }
+Viewpoint {
+	fieldOfView	0.785
+	jump	TRUE
+	orientation	-0.157949 0.985684 0.0589811  0.789
+	position	6 3 6
+}
 DEF STLB_transform Transform {
 	translation	0 0 0
-	rotation	-1 0 0  1.5708
+	scale	0.999999 1 1
+	center	0 1.5 0.05
 	children DEF STLB_Shape Shape {
 		appearance	Appearance {
 			material	Material {
 				ambientIntensity	0.2
-				diffuseColor	0.8 0.8 0.8
-				emissiveColor	0 0 0
-				shininess	0.2
-				specularColor	0 0 0
-				transparency	0
 			}
 
 		}

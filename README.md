@@ -27,3 +27,11 @@ http://graphics.stanford.edu/courses/cs348a-17-winter/Papers/quaternion.pdf
 
 #### Satellite Dynamics and Control in a Quaternion Formulation
 https://orbit.dtu.dk/files/98594729/Satdyn_mb_2010f.pdf
+
+## Useful SAT ADCS resources:
+
+### Satellite Attitude Control System Design Using Reaction Wheels
+https://academic.csuohio.edu/simond/pubs/Gouda04.pdf
+
+### Attitude Control Simulation of Small Satellites with Reaction Wheels
+https://pdfs.semanticscholar.org/5980/a5aff47914831246305fe37b4ce78f88b6d1.pdf

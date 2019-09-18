@@ -38,3 +38,6 @@ https://pdfs.semanticscholar.org/5980/a5aff47914831246305fe37b4ce78f88b6d1.pdf
 
 #### MIT aeronautics-and-astronautics Lecture L26 - 3D Rigid Body Dynamics: The Inertia Tensor
 https://ocw.mit.edu/courses/aeronautics-and-astronautics/16-07-dynamics-fall-2009/lecture-notes/MIT16_07F09_Lec26.pdf
+
+### Reaction Wheels Desaturation Using Magnetorquers and Static Input Allocation
+https://hal.archives-ouvertes.fr/hal-01760720/document

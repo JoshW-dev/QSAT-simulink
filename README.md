@@ -1,6 +1,8 @@
 # QSAT ADSC simulink 3D simulation
 
-This is a temporary repo for the sat ADCS simulation.
+This was a temporary repo for the sat ADCS simulation and is no longer up to date.
+
+The simulation repo was moved to the QSET github, if you're looking for the current simulation or want access to work on it, please message me and I'll get you set up. 
 
 ## Simulation requirements
 
